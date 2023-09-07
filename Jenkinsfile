@@ -62,7 +62,6 @@ pipeline {
                     emailext body: "Pull Request Details:\n" +
                                    "PR Number: ${PULL_REQUEST_BODY}\n" +
                                    "PR Creator: ${PULL_REQUEST_TITLE}\n" +
-                                   "Commit Message: ${commitMessage}",
                              subject: "Pull Request Details for PR#${prNumber}",
                              to: 'tamilbecse139@gmail.com,vigneshwaran.sivasubramanian@quadgen.com',
                              mimeType: 'text/plain'
