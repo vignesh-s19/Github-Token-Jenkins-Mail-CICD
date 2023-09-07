@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // Set your GitHub credentials ID here
-        GITHUB_CREDENTIALS = credentials('Github-Token-Jenkins-Mail-CICD')
+        GITHUB_CREDENTIALS = credentials('On-prem-server-HRM-GitHub-WebHook')
     }
     
 
