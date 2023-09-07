@@ -65,8 +65,7 @@ pipeline {
                                    "Commit Message: ${commitMessage}",
                              subject: "Pull Request Details for PR#${prNumber}",
                              to: 'tamilbecse139@gmail.com,vigneshwaran.sivasubramanian@quadgen.com',
-                             mimeType: 'text/plain',
-
+                             mimeType: 'text/plain'
                 }        
               }
         }
